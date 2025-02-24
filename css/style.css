@@ -1,0 +1,182 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+.container {
+  width: 1158px;
+}
+.section,
+.section-two,
+.section-three,
+.section-four {
+  padding: 120px 0;
+  width: 100%;
+}
+.sec-two,
+.sec-twoh,
+.sec-twop {
+  display: block;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Buradan aşağısı eski css dosyasıdır. Değişiklikler olacaktır. */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #ffffff;
+  margin: 0;
+}
+h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
+}
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+/* Başlık, navigasyon ve logo bölümü */
+header {
+  background-color: #e7e9fc;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  border-bottom: 1px solid #e7e9fc;
+}
+.nav-link {
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+}
+.nav-link:hover {
+  color: #404bbf;
+}
+.nav-link:focus {
+  color: #404bbf;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo .span-logo {
+  color: #2e2f42;
+}
+span {
+  color: #2e2f42;
+}
+/* Adres bölümü */
+address {
+  font-style: normal;
+}
+.add-ress {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: regular;
+}
+.add-ress:hover {
+  color: #404bbf;
+}
+.add-ress:focus {
+  color: #404bbf;
+}
+.button-tx {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+}
+.button-tx:hover {
+  background-color: #404bbf;
+}
+.button-tx:focus {
+  background-color: #404bbf;
+}
+/* Section bölümü */
+.section {
+  background-color: #2e2f42;
+}
+.sec-twop {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.sec-fourp {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.sec-threeh {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.sec-three {
+  background-color: #ffffff;
+}
+.section-three {
+  background-color: #f4f4fd;
+}
+
+/* Footer bölümü */
+footer {
+  background-color: #2e2f42;
+}
+.footer-p {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+.footer-logo-p {
+  color: #f4f4fd;
+}
