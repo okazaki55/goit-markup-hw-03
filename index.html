@@ -15,18 +15,18 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
-    <link href="./css/style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
 
     <title>WebStudio</title>
   </head>
   <body>
     <header class="header">
-      <div class="container-header">
+      <div class="container header-container">
         <nav class="menu-nav">
           <a href="/" class="logo">Web<span class="span-logo">Studio</span></a>
-          <ul>
+          <ul class="menu">
             <li><a class="nav-link" href="./index.html">Studio</a></li>
             <li><a class="nav-link" href="">Portfolio</a></li>
             <li><a class="nav-link" href="">Contacts</a></li>
@@ -34,7 +34,7 @@
         </nav>
 
         <address class="contacts">
-          <ul>
+          <ul class="contacts-list">
             <li>
               <a class="add-ress" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -59,8 +59,8 @@
 
       <section class="section-two">
         <div class="container">
-          <h2>Mastering Success</h2>
-          <ul>
+          <h2 class="visually-hidden">Mastering Success</h2>
+          <ul class="sec-two-list">
             <li class="sec-two">
               <h3 class="sec-twoh">Strategy</h3>
               <p class="sec-twop">
@@ -96,21 +96,25 @@
       <section class="section-three">
         <div class="container">
           <h2 class="our-team">Our Team</h2>
-          <ul>
+          <ul class="sec-three-list">
             <li class="sec-three">
               <img
                 src="./images/mark-guerro.jpg"
                 alt="mark-guerro"
                 width="264"
               />
-              <h3 class="sec-threeh">Mark Guerrero</h3>
-              <p class="sec-threep">Product Designer</p>
+              <div class="our-team-info">
+                <h3 class="sec-threeh">Mark Guerrero</h3>
+                <p class="sec-threep">Product Designer</p>
+              </div>
             </li>
 
             <li class="sec-three">
               <img src="./images/tom-ford.jpg" alt="tom-ford" width="264" />
-              <h3 class="sec-threeh">Tom Ford</h3>
-              <p class="sec-threep">Frontend Developer</p>
+              <div class="our-team-info">
+                <h3 class="sec-threeh">Tom Ford</h3>
+                <p class="sec-threep">Frontend Developer</p>
+              </div>
             </li>
 
             <li class="sec-three">
@@ -119,8 +123,10 @@
                 alt="camila-garcia"
                 width="264"
               />
-              <h3 class="sec-threeh">Camila Garcia</h3>
-              <p class="sec-threep">Marketing</p>
+              <div class="our-team-info">
+                <h3 class="sec-threeh">Camila Garcia</h3>
+                <p class="sec-threep">Marketing</p>
+              </div>
             </li>
 
             <li class="sec-three">
@@ -129,8 +135,10 @@
                 alt="daniel-wilson"
                 width="264"
               />
-              <h3 class="sec-threeh">Daniel Wilson</h3>
-              <p class="sec-threep">UI Designer</p>
+              <div class="our-team-info">
+                <h3 class="sec-threeh">Daniel Wilson</h3>
+                <p class="sec-threep">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -139,13 +147,14 @@
       <section class="section-four">
         <div class="container">
           <h2 class="portfolio">Our Portfolio</h2>
-          <ul>
-            <li>
+          <ul class="sec-four-list">
+            <li class="sec-four">
               <img
                 src="./images/banking-app.jpg"
                 alt="banking-app"
                 width="360"
               />
+              <div class="our-portfolio-info"></div>
               <h3 class="sec-fourh">Banking App</h3>
               <p class="sec-fourp">App</p>
             </li>
@@ -156,8 +165,10 @@
                 alt="cashless-payment"
                 width="360"
               />
-              <h3 class="sec-fourh">Cashless Payment</h3>
-              <p class="sec-fourp">Marketing</p>
+              <div class="our-portfolio-info">
+                <h3 class="sec-fourh">Cashless Payment</h3>
+                <p class="sec-fourp">Marketing</p>
+              </div>
             </li>
 
             <li>
@@ -166,8 +177,10 @@
                 alt="meditation-app"
                 width="360"
               />
-              <h3 class="sec-fourh">Meditation App</h3>
-              <p class="sec-fourp">App</p>
+              <div class="our-portfolio-info">
+                <h3 class="sec-fourh">Meditation App</h3>
+                <p class="sec-fourp">App</p>
+              </div>
             </li>
 
             <li>
@@ -176,8 +189,10 @@
                 alt="taxi-service"
                 width="360"
               />
-              <h3 class="sec-fourh">Taxi Service</h3>
-              <p class="sec-fourp">Marketing</p>
+              <div class="our-portfolio-info">
+                <h3 class="sec-fourh">Taxi Service</h3>
+                <p class="sec-fourp">Marketing</p>
+              </div>
             </li>
 
             <li>
@@ -186,8 +201,10 @@
                 alt="screen-illustrations"
                 width="360"
               />
-              <h3 class="sec-fourh">Screen Illustrations</h3>
-              <p class="sec-fourp">Design</p>
+              <div class="our-portfolio-info">
+                <h3 class="sec-fourh">Screen Illustrations</h3>
+                <p class="sec-fourp">Design</p>
+              </div>
             </li>
 
             <li>
@@ -196,8 +213,10 @@
                 alt="online-courses"
                 width="360"
               />
-              <h3 class="sec-fourh">Online Courses</h3>
-              <p class="sec-fourp">Marketing</p>
+              <div class="our-portfolio-info">
+                <h3 class="sec-fourh">Online Courses</h3>
+                <p class="sec-fourp">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
