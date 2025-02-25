@@ -15,6 +15,7 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  margin-bottom: 8px;
 }
 .header-container {
   display: flex;
@@ -164,6 +165,11 @@ address {
 .sec-twop {
   letter-spacing: 0.02em;
   color: #434455;
+}
+.sec-twoh,
+.sec-threeh,
+.sec-fourh {
+  margin-bottom: 8px;
 }
 .sec-three-list {
   display: flex;
