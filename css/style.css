@@ -208,6 +208,15 @@ address {
 .section-three {
   background-color: #f4f4fd;
 }
+.our-team {
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+  text-align: center;
+  font-size: 36px;
+}
 .our-team-info {
   padding: 32px 0;
 }
@@ -225,6 +234,13 @@ address {
   flex: 1;
   background-color: #ffffff;
   flex-basis: calc((100% - 72px) / 4);
+}
+.sec-fourh {
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .portfolio {
   line-height: 1.11;
